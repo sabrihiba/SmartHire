@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Job Tracker",
+    "slug": "app-job-tracker",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/placeholder-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/placeholder-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jobtracker.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/placeholder-adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jobtracker.app"
+    },
+    "web": {
+      "favicon": "./assets/placeholder-favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "scheme": "jobtracker"
+  }
+}

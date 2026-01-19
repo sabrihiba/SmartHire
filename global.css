@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Désactiver la détection automatique du dark mode sur web */
+@media (prefers-color-scheme: dark) {
+  /* Ne rien faire - on contrôle manuellement via la classe 'dark' */
+}
+
